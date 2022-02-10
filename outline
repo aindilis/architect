@@ -1,0 +1,77 @@
+# tracks the status of the system from CSO, or something
+
+# have some record of how to solve some particular problem, that is like code isn't it.
+
+For instance,
+
+how do I package a codebase
+    A
+    A
+    A
+
+How do I convert a script to a module
+    Depends: codemonkey
+    'codemonkey --convert-to-oo <script>'
+
+
+Arch/System
+	External codebases
+
+Arch/ProjectManager/Project
+	Internal codebases
+
+
+Arch
+Arch/
+
+Project
+InternalCodebase
+ExternalCodebase
+Release
+Package
+Bug
+Feature
+
+System
+Capability
+Goal
+Requirement
+Suggestion
+
+Arch/Categorizer
+Arch/Capability
+Arch/Capability/Generator
+Arch/Capability/Categorizer
+match-capabilities
+
+systems
+
+The outline should be
+
+
+
+RequirementManager
+
+Each capability request or requirement may be satisfied by an internal
+codebase that has that as an implemented feature or a packaged piece
+of software that has that as a capability.
+
+This satisfaction should represent the capabilities of the system.
+Should be able to ask for capabilities and what implements them.
+
+Information of how to use it might also be stored.
+
+Capability descriptions describe some system that satisfies some
+formal requirements.  To what extent and in what way a given system
+purportly satisfies a capability should be recorded with association
+to test data.
+
+
+
+
+Iterate over goals and mark which ones have been completed and by
+what.  Really requires the system I am working on now.
+
+Look at what already has been done along these lines.
+
+

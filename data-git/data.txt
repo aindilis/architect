@@ -1,0 +1,2324 @@
+EXISTING CAPABILITIES:
+
+	(Non-exhaustive) List of the Capabilities of the FRDCSA
+	
+	KEY:
+	(#system) -> not fully implemented
+	(%system) -> partially performs capability
+	(!system) -> integrated but not available due to licensing
+	()	  -> no system implements this capability yet
+
+
+	Misc
+	
+		Multi-agent system (UniLang)
+		Self-directed goal setting (Architect)
+	
+	Natural Language Processing:
+	
+		Question Answering (QUAC/OpenEphyra/Aranea/%TextMine/AnswerBus)
+		Machine Translation (Apertium|Google)
+		Query Expansion (lucqe)
+		Recognizing Textual Entailment (#FreeRTE/CAndC/#Stanford-RTE)
+		
+		Natural Language to Logic (CELT/#Formalize/!ResearchCyc/%APE)
+		Controlled Language (APE|ACEWiki)
+		
+		Shallow Parsing (Assert|#Shalamaneser)
+		Sentiment Analysis (OpinionFinder)
+		Anaphora Resolution (JavaRAP|#BART)
+		Sentence Similarity (%Meteor|%Stanford-RTE)
+		Text Clustering (AI::Categorizer/Rival::AI::Categorizer/PerlLib::Cluster/crossbow/OSKM/)
+		TFIDF (PerlLib)
+		Topic Gisting (ConceptNet)
+		Affective Analysis (ConceptNet)
+		Word Sense Disambiguation (SenseRelate)
+		Named Entity Recognition (Cage/CAndC/NamedEntity/OpenNLP/Simple/Stanford/TagEn/TextMine)
+		Tokenization (treebank/TextMine)
+		
+		Grammar Checking (LinkGrammar)
+		Summarization (ConceptNet/MEAD)
+		Parsing (Charniak/Lingua::EN::Tagger/LinkGrammar)
+		Predicate Parsing (%Assert/Enju)
+		
+		Abbreviation Extraction
+		Body Text Extraction (BTE)
+		Concept Extraction (#TMT)
+		Date Extraction (TempEx)
+		Definitional Extraction ()
+		Fact Extraction (#fact-extraction/%Assert)
+		Information Extraction (T-Rex/MinorThird/Elie/#MDR/#AIE)
+		Logic Form Extraction (FreeLogicForm/CAndC)
+		Temporal Ordering Extraction (TARSQI)
+		Terminology Extraction (TermEx)
+		
+	Semantic Annotation (OpenCalais)
+		
+		Topic Detection and Tracking ()
+		Definitional Question Answering ()
+		
+		Bad Word Lists ()
+		Word Connotation (EAT)
+		Rhyming (rhyme)
+		
+	HTML Processing
+		
+		Event Extraction (%GeekEventAggregator)
+		URI Extraction (WWW::Mechanize/PerlLib::URIExtractor)
+		
+	INFORMATION EXTRACTION
+		
+		MontyLingua - what does that do?
+		
+	AI/Knowledge Representation:
+		Knowledge Based System (#FreeKBS/OpenCYC/#%Sayer)
+		
+	Studying
+		Digital Library (DigiLib/Greenstone/#DSpace)
+		Intelligent Tutoring System (CLEAR/#SystemX)
+		
+	Humanitarian/Life Support
+		
+		Task Management (#Manager Todo/#PSE)
+
+DESIRED CAPABILITIES:
+
+	Author Identification
+	Author Recognition
+	Automatic Subject Classification
+	Automatic Text Annotation
+	Concept Extraction
+	Content Analysis
+	Content Filtering
+	Controlled English To Logic Translation
+	Cross Document Coreference Resolution
+	Cross Document Entity Resolution
+	Definitional Question Answering
+	Definition Extraction (
+	Email Classification
+	Entity Classification
+	Entity Recognition
+	Entity Resolution
+	Ethnicity Classifier
+	Event Extraction
+	Fact Extraction
+	Grammar Correction
+	Link Detection
+	Named Entity Classification
+	Named Entity Recognition
+	Name Ethnicity Classifier
+	Name Resolution
+	News Filtering
+	Paragraph Splitter
+	Penn Treebank Tagger
+	Philology
+	Plan Recognition
+	Question Answering
+	Recognizing Textual Entailment
+	Recommendation Engine
+	Record Linkage (#BSL)
+	Relation Extraction (#RelEx)
+	Resume Analysis
+	Resume Information Extraction
+	Semantic Annotation
+	Semantic Labelling
+	Semantic Markup
+	Semantic Text Annotation
+	Statistical Trend Detection
+	Streaming Text Clustering (#OSKM)
+	Text Analysis
+	Text Clustering
+	Text Extraction
+	Text Mining
+	Text Summarization
+	Topic Detection And Tracking
+	Topic Gisting
+	Trend Detection
+	Word Sense Induction
+
+SOME ARCHIVED SOFTWARE
+
+	aanrelease-2007
+	aart-0.0.7
+	abner-1.5
+	acopost-1.8.4
+	actrbot-0.8.2
+	aisystem-1.08
+	akira-0.9.1
+	alice-2.0.0
+	alice-2.2
+	alvis-tools-20080306
+	android-sdk-linux-x8-6.1.1
+	android-sdk-linux-x8-6.1.5
+	animals-wiki-texts-2006
+	animevision-20080424
+	anubadok-0.2.1
+	ape-6.5.090616
+	armada-1.3
+	assert-0.14
+	astrogen-20080702
+	asv-toolbox-20090214
+	asv-toolbox-tev-1.0
+	attempto-controlled-english-6.0.080506
+	attempto-java-packages-090528
+	augmentedwordnet-20080220
+	balie-1.81
+	bart-snapshot-20091005
+	bios-1.1.0
+	bliksemsource-20080622
+	boostexter-20010430
+	bootcat-0.1.2
+	brico-20080217
+	brilltag-20081023
+	bte-0.1
+	cageclass-20080306
+	candc-1.00
+	canonicalization-data-v-1.0
+	casc-21
+	citizen-intelligence-agency-1.0-alpha5
+	cmu-cam-toolkit-2
+	collins-parser-20090205
+	conceptextract-0.5
+	convote-v-1.1
+	cortex-0.1
+	cypher-1.9
+	D13-20090213
+	D2-2.220
+	datamart-20090115
+	dbin-20080224
+	dbpedia-extraction-20090126
+	dbpedia-opencyc-20080224
+	depta-20080126
+	diasdem-20080201
+	dig-1.1
+	divisi-0.1
+	divisi-0.1
+	divisi-0.5
+	documentsimilarity-0.1
+	dose-20090615
+	dragontool-20090213
+	dramneri-0.2.1
+	dube-2
+	eat-20080312
+	elie-20081023
+	emdros-3.0.1
+	emofilt-095
+	englishparsing-20081214
+	english-subcategorization-20080219
+	entity-resolution-citeseer-20090205
+	espotter-20080414
+	ewnsamples-20080219
+	ex-20081020
+	expertperl-0.3
+	exte-1.1
+	febrl-0.4.02
+	flock-1.1.2
+	fnlabeller-20090601
+	fossology-0.6.0
+	fossology-0.8.0
+	fossology-0.9.0
+	fowl-0.41
+	free-logic-form-1
+	gate-5.0
+	gle-2.2.6
+	gourmet-0.13.8
+	gposttl-0.9.1
+	greenstone-2.81
+	greenstone-3.03
+	gwsd-1.0
+	halogen-20080317
+	hdose-mo-1.6
+	hms-scrubber-1
+	hockenmaiersteedmanlrec-2002
+	idiet-1.0.2
+	idp-0.0.4
+	imagematting-0.1
+	imhs-1.0
+	imis-20081031
+	indri-2.7
+	indri-2.9
+	indywiki-0.9.7
+	inference-20080216
+	infomap-nlp-0.8.6
+	interactive-help-agent-20090215
+	irate-0.5
+	irexfinalb-20080702
+	iulib-0.3
+	jack-rack-1.4.7
+	jane16sentiment-1.0
+	jangada-20080217
+	javarap-1.11
+	jbialpha-0.3.5
+	jeromedl-2.1.0
+	jfex-1.0
+	jlsi-1.0
+	joomla-1.5.9
+	jsms-1.0
+	jsre-1.1
+	jwnl-14
+	jwnl-14
+	kea-5.0
+	kim-1.7.12
+	lbj-20081127
+	lbjcoref-20081126
+	lbjnertagger-1.2
+	liarliar-0.5.2
+	lingpipe-3.7.0
+	link-grammar-4.0
+	link-grammar-4.4.2
+	lll-05
+	lm-giga-20081113
+	lpkb-20090216
+	maita-20090217
+	mallet-0.4
+	mary-3.6.0
+	mbp-1.01
+	microchef-20080913
+	mincutseg-20071226
+	mindraider-0.512
+	minipar-0.5
+	minipar-0.5
+	minipar-20090205
+	minorthird-20080611
+	mmsecondquestion-1.0
+	moby-20081028
+	montylingua-2.1
+	moses-0.1
+	moses-2007-05-29
+	mrsbs-1.1
+	msrte-20080220
+	mulgara-2.0.8
+	mulgara-2.1.1
+	mustru-0.2
+	next-0.82
+	nfact-20090218
+	nltk-0.9.7
+	nombank-1.0
+	nuin-20060929
+	nutcracker-1.0
+	oaa-2.3.2
+	ocropus-0.1.1
+	ocropus-0.3.1
+	odo-0.20
+	omegawiki-20071125
+	one-20071221
+	ontea-0.8
+	ontologymapping-cmsv-1.1
+	opencyc-1.0.2
+	opendmap-1.0
+	openephyra-0.1.1
+	openephyra-0.1.1
+	openephyra-0.1.1
+	openfst-beta-20080422
+	opengazer-0.1.2
+	openiris-0.4
+	openmrs-20080711
+	opennlp-1.4.2
+	opennlp-tools-1.3.0
+	openshore-20090615
+	orangehrm-2.4.2
+	oskm-20091005
+	pdkb-0.3
+	ped-0.1
+	pmos-1.1.2153
+	pocketsphinx-0.5
+	pointrel-20090615
+	poweranalysistool-20090217
+	project-halo-20080702
+	propernames-20080207
+	psycholinguistics-datasets-20080312
+	publicwhip-source-7
+	pyextract-0.0.2
+	python-calais-1.4
+	qpos-0.2.2
+	r6homeinventory-2.2
+	rapidminer-text-4.1
+	raw-1054.1
+	rbt-1.14
+	rdftm-poc-20090218
+	reasoner-1.0.1
+	relex-0.8.5
+	relex-0.98.1
+	researchcyc-1.0
+	researchcyc-13575.7140
+	result-20080220
+	review-polarity-20080706
+	rez-0.3
+	roadrunner-0.02.11
+	roomline-20080706
+	roots-20081031
+	rotten-imdb-20080706
+	rssimapserver-1.2
+	sb-20090205
+	scan-0.3
+	scan-1.3.1
+	scenelib-20081112
+	scol-1k
+	semantical-0.9.2
+	semanticannotator-20090204
+	semantic-engine-20080711
+	semcor-2.1
+	semediawiki-1.0.1
+	semfs-20071228
+	sen
+	senselearner-2.0
+	sentensa-2.3
+	serf-20090205
+	serf-20090504
+	shalmaneser-1.1.160307
+	shareit-20090615
+	sift-1.1
+	sims-20090223
+	slush-1236
+	snake-rpg-final-20090116
+	sntool-0.8.12
+	social-simulator-20091007
+	socnetv-0.51
+	spade-20091007
+	sphinx-4.1.0
+	srl-2.0
+	ssn-parser-1.0
+	sst-1.0
+	stanford-mt-rte-200-8.10.31
+	super-sense-tag-20090216
+	swemof-0.1
+	tabari-0.4.04
+	tabari-0.6
+	tadpole-0.2-beta
+	tao-ontology-learning-20090517
+	tarsqi-1.0
+	taskforest-1.15
+	tdt-topic-tables-3
+	tease-collection-20080622
+	tensor-20090226
+	termex-1.49
+	termex-1.49
+	termex-e-20080706
+	tesseract-2.01
+	tesseract-2.03
+	texai-20071225
+	texco-0.1.3
+	textmarker-20090215
+	textmine-0.2
+	textminingtool-20090205
+	thes-ga-ie-2
+	thmanager-2.0
+	tilsapa-20090225
+	timbl-6.1.4
+	tipi-0.1
+	tmt-0.1.1
+	treetagger-3.1
+	treetagger-3.1
+	trellis-0.3
+	t-rex-0.3
+	t-rex-20080702
+	tslib-1.0.0
+	tss-1.0
+	twixt-0.9.2
+	ubigraph-alpha-0.2.4
+	ude-0.1
+	uff-1.2
+	uk-web-crawl-link-dataset-2006
+	unicad-1.1.4
+	val-4.2.04
+	vampire-20081027
+	vampiresource-20081027
+	venses-20090223
+	verbocean-20080702
+	videosubfinder-1.76
+	virtuoso-opensource-5.0.3
+	voce-0.9.1
+	wandora-20090110
+	wasa-251
+	wbcnet-1.0
+	webtty-0.1
+	wikipedia-datav-1.0
+	wordfreak-2.2
+	wordnet-2.1
+	wordnet-senserelate-20090216
+	yoshikoder-0.6.3
+	zct-20090216
+
+INTERNAL CODEBASE PM FILES
+
+	<akahige>
+		/var/lib/myfrdcsa/codebases/internal/akahige/Akahige.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'akahige',
+	          'Name' => 'Akahige'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/akahige/Akahige/Exercise.pm
+	<all>
+		/var/lib/myfrdcsa/codebases/internal/all/Termios.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'all',
+	          'Name' => 'Termios'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/all/Termios/Text.pm
+		/var/lib/myfrdcsa/codebases/internal/all/ALL/TTS/GA.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'all',
+	          'Name' => 'ALL'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/all/ALL/TTS/EN.pm
+		/var/lib/myfrdcsa/codebases/internal/all/ALL/STT.pm
+		/var/lib/myfrdcsa/codebases/internal/all/ALL/TTS.pm
+		/var/lib/myfrdcsa/codebases/internal/all/ALL.pm
+	<alleyoop>
+		/var/lib/myfrdcsa/codebases/internal/alleyoop/AlleyOop.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'alleyoop',
+	          'Name' => 'AlleyOop'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/alleyoop/AlleyOop/Mod/ALL.pm
+		/var/lib/myfrdcsa/codebases/internal/alleyoop/AlleyOop/Proxy.pm
+		/var/lib/myfrdcsa/codebases/internal/alleyoop/AlleyOop/Proxy/Filter.pm
+	<antispam-console>
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/CorporaManager.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'antispam-console',
+	          'Name' => 'ASConsole'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Log/Analyzer.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Learner/ResultSet.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Learner/SNoW.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Learner/AIDecisionTree.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Learner/FFoil.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Classification.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/MBox.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/DBMail.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Message.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/IMAP.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Trec.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Trec/Message.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Classification/Accuracy.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus/Message/Classification.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/FilterManager.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Corpus.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Feedback.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Stereotypes.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Outgoing.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Rules.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/MassChecker.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Node.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Rules/Custom.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Rules/SARE.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Rules/Additional.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/Rules/Headers.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA/NodeManager.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/ClientReportGenerator.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Enju/Bayes.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/MissedSpamHarvester.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Custom/LEET.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Custom/AntiAntiBayes.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Setanta.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Enju.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/SA.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole/Filter/Categorize.pm
+		/var/lib/myfrdcsa/codebases/internal/antispam-console/ASConsole.pm
+	<antispam-node>
+		/var/lib/myfrdcsa/codebases/internal/antispam-node/ASNode.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'antispam-node',
+	          'Name' => 'ASNode'
+	        };
+	<apartment-finder>
+		/var/lib/myfrdcsa/codebases/internal/apartment-finder/AppFinder.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'apartment-finder',
+	          'Name' => 'AppFinder'
+	        };
+	<architect>
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'architect',
+	          'Name' => 'Arch'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch/Capability/Generator.pm
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch/Capability/Categorizer.pm
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch/CapabilitiesManagement.pm
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch/Categorizer.pm
+		/var/lib/myfrdcsa/codebases/internal/architect/Arch/MatchCapabilities.pm
+	<assess>
+		/var/lib/myfrdcsa/codebases/internal/assess/Assess/Report.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'assess',
+	          'Name' => 'Assess'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/assess/Assess.pm
+	<audience>
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'audience',
+	          'Name' => 'Audience'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Mod/Prioritize/Classifier.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Mod/Prioritize/Contact.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/AIM.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/Template.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/Phone.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/OSCAR.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/Email.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Agent/UniLang.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/AgentManager.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Mail/Client.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Event.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat/IssueTracker.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat/ACL.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat/OPSEC.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat/Reasoner.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Diplomat/Dialog.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/ContactManager.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Identity.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Wrapper.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Contact.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Dialog/Manager.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Dialog/Conversation.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Dialog/Engine.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Proxy.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Discusser.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Dialog.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Tools/TOR.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/IdentityManager.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Proxy/Message.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Proxy/Message/Complaint.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Proxy/MessageQueue.pm
+		/var/lib/myfrdcsa/codebases/internal/audience/Audience/Proxy/Log.pm
+	<bard>
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/Rhyme.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'bard',
+	          'Name' => 'Bard'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/Dimension.pm
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/WordPlay.pm
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/Poem.pm
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/CatchWord.pm
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard/Acronym.pm
+		/var/lib/myfrdcsa/codebases/internal/bard/Bard.pm
+	<boss>
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'boss',
+	          'Name' => 'BOSS'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/boss/perl-codebases: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Project.pm
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Source.pm
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/ICodebase.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'boss',
+	          'Name' => 'BOSS::ICodebase'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Script.pm
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Maintenance.pm
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Config.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'boss',
+	          'Name' => 'BOSS::Config'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/boss/BOSS/Bug.pm
+	<brainleach>
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'brainleach',
+	          'Name' => 'BrainLeach'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BLClient.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'brainleach',
+	          'Name' => 'BLClient'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach/HTN/Task.pm
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach/Step.pm
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach/HTN.pm
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach/TaskScript.pm
+		/var/lib/myfrdcsa/codebases/internal/brainleach/BrainLeach/Log.pm
+	<broker>
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'broker',
+	          'Name' => 'Broker'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Source/Template.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Source/MiscMarket.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Source/BensBargains.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Source/CraigsList.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/SourceManager.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Product.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Filter.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Source.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Records/GNUCash.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/FilterManager.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/ValueAnalysis.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Accountant.pm
+		/var/lib/myfrdcsa/codebases/internal/broker/Broker/Preferences.pm
+	<busroute>
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'busroute',
+	          'Name' => 'BR'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Conf.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/PDDL.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Route.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Items.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Location.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Spider.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/RouteSegment.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Spider/PortAuthority.pm
+		/var/lib/myfrdcsa/codebases/internal/busroute/BR/Geo.pm
+	<canvasser>
+	<classify>
+		/var/lib/myfrdcsa/codebases/internal/classify/Classify.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'classify',
+	          'Name' => 'Classify'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/classify/Classify/Releaser.pm
+		/var/lib/myfrdcsa/codebases/internal/classify/Classify/Text.pm
+		/var/lib/myfrdcsa/codebases/internal/classify/Classify/Metadata.pm
+		/var/lib/myfrdcsa/codebases/internal/classify/Classify/Metadata/File.pm
+	<clear>
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/ReadList.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'clear',
+	          'Name' => 'Clear'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/DocDataXML.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Mod/Visualize.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Mod/Liferea.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Mod/Visualize2.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Quiz.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Programming.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Voy/Pair.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Voy/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Recommend.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/DocData.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear/Doc.pm
+		/var/lib/myfrdcsa/codebases/internal/clear/Clear.pm
+	<coauthor>
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/CoWrite.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'coauthor',
+	          'Name' => 'CoAuthor'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/Grammar.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/Depends.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/NLP.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/NGram.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/CCluster.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor/Crossbow.pm
+		/var/lib/myfrdcsa/codebases/internal/coauthor/CoAuthor.pm
+	<code-monkey>
+		/var/lib/myfrdcsa/codebases/internal/code-monkey/CodeMonkey.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'code-monkey',
+	          'Name' => 'CodeMonkey'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/code-monkey/CodeMonkey/Learning.pm
+		/var/lib/myfrdcsa/codebases/internal/code-monkey/CodeMonkey/CamelCase.pm
+		/var/lib/myfrdcsa/codebases/internal/code-monkey/CodeMonkey/Build.pm
+		/var/lib/myfrdcsa/codebases/internal/code-monkey/CodeMonkey/Refactory.pm
+	<corpus>
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/UI.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'corpus',
+	          'Name' => 'Corpus'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Mod/Template.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Mod/UniLang.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Util/UniLang.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/NLP.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Ontology/Distinction.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Ontology/Class.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Sources.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Router.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Auto/AICategorizer.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Auto/Rainbow.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Auto/Snow.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Auto/Person.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/ModManager.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Ontology.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/AssertionTool.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus/Entry.pm
+		/var/lib/myfrdcsa/codebases/internal/corpus/Corpus.pm
+	<crawler>
+		/var/lib/myfrdcsa/codebases/internal/crawler/Server.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'crawler',
+	          'Name' => 'Server'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/crawler/webkb: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/crawler/Spider.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'crawler',
+	          'Name' => 'Spider'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/crawler/webkb: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/crawler/Spider/LinkCheck.pm
+		/var/lib/myfrdcsa/codebases/internal/crawler/Spider/Classifier.pm
+	<critic>
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'critic',
+	          'Name' => 'Critic'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/SQLClassifier/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/SQLClassifier/Classifier.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/SQLClassifier/Classes.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/SQLClassifier/Categorizer.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/Review.pm
+	grep: /var/lib/myfrdcsa/codebases/internal/critic/Critic/Classifier/.#Classifier.pm: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/Classifier/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/Classifier/Classifier.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/Classifier/Classes.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/NewClassifier/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/NewClassifier/Server.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/NewClassifier/Classifier.pm
+		/var/lib/myfrdcsa/codebases/internal/critic/Critic/NewClassifier/Classes.pm
+	<cso>
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/DMOZ.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'cso',
+	          'Name' => 'CSO'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/Template.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/AptCache.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/MyFRDCSA.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/Freshmeat.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/LSM.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/SAL.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/CPAN.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/Sourceforge.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/AptGetDotOrg.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Source/Spider.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/SourceManager.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/System.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/Capabilities.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/cso/CSO.pm
+	<diamond>
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'diamond',
+	          'Name' => 'Diamond'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/diamond/www: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Admin.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/User.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/SessionManager.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Session.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Dialog.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Target/CGI/Demo.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Target/CGI.pm
+		/var/lib/myfrdcsa/codebases/internal/diamond/Diamond/Target/CGI2.pm
+	<digilib>
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'digilib',
+	          'Name' => 'Digi'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Source/Scanner/Flatbed.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Source/Scanner/Robot/Lifter.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Source/Scanner/Robot.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Source/Gutenberg.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Print.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Book.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Crawler.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Util/WgetCache.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Util/GetAuthors.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Storage.pm
+		/var/lib/myfrdcsa/codebases/internal/digilib/Digi/Scan.pm
+	<disciple>
+		/var/lib/myfrdcsa/codebases/internal/disciple/Disciple/Template.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'disciple',
+	          'Name' => 'Disciple'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/disciple/Disciple/System.pm
+		/var/lib/myfrdcsa/codebases/internal/disciple/Disciple/Checklist.pm
+		/var/lib/myfrdcsa/codebases/internal/disciple/Disciple/Goal.pm
+		/var/lib/myfrdcsa/codebases/internal/disciple/Disciple/Library.pm
+	<do>
+		/var/lib/myfrdcsa/codebases/internal/do/Do/Cyc/NL.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'do',
+	          'Name' => 'Do'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/do/Do/Event.pm
+		/var/lib/myfrdcsa/codebases/internal/do/Do/Action.pm
+		/var/lib/myfrdcsa/codebases/internal/do/Do/Action/CycList.pm
+		/var/lib/myfrdcsa/codebases/internal/do/Do.pm
+	<ems>
+		/var/lib/myfrdcsa/codebases/internal/ems/EMS.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'ems',
+	          'Name' => 'EMS'
+	        };
+	<ender>
+		/var/lib/myfrdcsa/codebases/internal/ender/Ender/Games/Chess/Piece.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'ender',
+	          'Name' => 'Ender'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/ender/Ender/Games/Chess/Board.pm
+		/var/lib/myfrdcsa/codebases/internal/ender/Ender.pm
+	<evangelist>
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Movie/Element.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'evangelist',
+	          'Name' => 'Evan'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Movie/Scene.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Movie/Script.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/CSP.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Audience.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Movie.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan/Dialog.pm
+		/var/lib/myfrdcsa/codebases/internal/evangelist/Evan.pm
+	<event-log>
+		/var/lib/myfrdcsa/codebases/internal/event-log/ELog.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'event-log',
+	          'Name' => 'ELog'
+	        };
+	<event-system>
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'event-system',
+	          'Name' => 'Calendar'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/event-system/ES/PDDL.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'event-system',
+	          'Name' => 'ES'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/event-system/ES/Event.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/ES/Mail.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/PDDL.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Event.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Collection.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Schedule.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Importer.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Store.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/Calendar/Class.pm
+		/var/lib/myfrdcsa/codebases/internal/event-system/ES.pm
+	<fieldgoal>
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Posithon.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'fieldgoal',
+	          'Name' => 'FG'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Team.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/WorldModel.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Positron.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Posicore.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/ProjectManager.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/TaskMonitor.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Meeting.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG/Task.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/FG.pm
+		/var/lib/myfrdcsa/codebases/internal/fieldgoal/CFG.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'fieldgoal',
+	          'Name' => 'CFG'
+	        };
+	<formalforum>
+		/var/lib/myfrdcsa/codebases/internal/formalforum/FF/Engine.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'formalforum',
+	          'Name' => 'FF'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/formalforum/FF.pm
+	<formalize>
+		/var/lib/myfrdcsa/codebases/internal/formalize/Formalize.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'formalize',
+	          'Name' => 'Formalize'
+	        };
+	<frdcsa-el>
+	<frdcsal>
+	<frdcsa-reference>
+	<freekbs>
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'freekbs',
+	          'Name' => 'KBS'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Rules.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/NL.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/KB/Assertion.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/StoreManager.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Store.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/MemStore.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Store/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Store/MySQL2.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Store/Memory.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Store/OpenCyc.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/KB.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs/KBS/Client.pm
+	<freekbs2>
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/NL.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'freekbs2',
+	          'Name' => 'KBS2'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/KB/Assertion.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/StoreManager.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Obj/Formula.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Store.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/MemStore.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Store/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Store/Memory.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/KB.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/Client.pm
+		/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2.pm
+	<fweb>
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'fweb',
+	          'Name' => 'FWeb'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/Recency.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/Project.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/FRDCSA.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/HomePage/Templates.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/Class.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/HomePage.pm
+		/var/lib/myfrdcsa/codebases/internal/fweb/FWeb/Doc.pm
+	<fweb2>
+	<generix>
+		/var/lib/myfrdcsa/codebases/internal/generix/Generix/DepAnalyzer.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'generix',
+	          'Name' => 'Generix'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/generix/Generix/Remaster.pm
+		/var/lib/myfrdcsa/codebases/internal/generix/Generix.pm
+	<gourmet>
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'gourmet',
+	          'Name' => 'Gourmet'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/gourmet/devel: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Cookbook.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/RoboChef.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Devel.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Importer/MealMaster.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Importer/Standardizer.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/MealPlan.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Admin.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Importer.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Bookshelf.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Devel/SR16.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Devel/Corpus.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Devel/Ontology.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/MealPlan/Meal.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmet/Gourmet/Recipe.pm
+	<gourmetjr>
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Recipes.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'gourmetjr',
+	          'Name' => 'GourmetJr'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Planner.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/FoodOntology.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Inventory/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/UPCDB.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Ingrediant.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Inventory.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr/Recipe.pm
+		/var/lib/myfrdcsa/codebases/internal/gourmetjr/GourmetJr.pm
+	<job-search>
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Source/JobsPerlOrg.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'job-search',
+	          'Name' => 'JS'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Source/Tagged.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Source/Monster.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Source/Dice.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Source/CraigsList.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Manager.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/SourceManager.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Resume.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/ResumeXML2.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/ResumeMatcher.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Profile.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/ResumeXML.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/Position.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS/MinorThird.pm
+		/var/lib/myfrdcsa/codebases/internal/job-search/JS.pm
+	<kbfs>
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'kbfs',
+	          'Name' => 'KBFS'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Systemize/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Cache/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Wrapper.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/FileIndex.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Pack/Directory.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Pack/Packing.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Pack/MediaStruct.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Pack/DirectoryTree.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Pack/Media.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/Cache.pm
+		/var/lib/myfrdcsa/codebases/internal/kbfs/KBFS/KB.pm
+	<kmax>
+		/var/lib/myfrdcsa/codebases/internal/kmax/KMax.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'kmax',
+	          'Name' => 'KMax'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/kmax/KMax/Dispatcher.pm
+	<learner>
+		/var/lib/myfrdcsa/codebases/internal/learner/Learner.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'learner',
+	          'Name' => 'Learner'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/learner/Learner/Method.pm
+		/var/lib/myfrdcsa/codebases/internal/learner/Learner/DataStore.pm
+	<manager>
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'manager',
+	          'Name' => 'Manager'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Context.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Predict.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Events.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Records/Context/TaskManager.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Records/Context.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Records/Session.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Cycle.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/Sleep.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/MorningIntelReport.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/Alarm.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/Secure.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/Debrief.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AM/Motion.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Records.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Scheduler2.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Misc/ParseTodo.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Misc/Light.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/AgentLib.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Sensors.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Scheduler.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Dialog/Record.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Interact.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/State.pm
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Dialog.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'manager',
+	          'Name' => 'Manager::Dialog'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/manager/Manager/Sensors/Vision.pm
+	<mantra>
+		/var/lib/myfrdcsa/codebases/internal/mantra/Mantra/Corpus.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'mantra',
+	          'Name' => 'Mantra'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/mantra/Mantra/Tools/GIZA.pm
+		/var/lib/myfrdcsa/codebases/internal/mantra/Mantra.pm
+	<meeting>
+		/var/lib/myfrdcsa/codebases/internal/meeting/Meeting/Event.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'meeting',
+	          'Name' => 'Meeting'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/meeting/Meeting/Guide.pm
+	<mmi>
+	<mush>
+		/var/lib/myfrdcsa/codebases/internal/mush/MUSH.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'mush',
+	          'Name' => 'MUSH'
+	        };
+	<myfrdcsa>
+		/var/lib/myfrdcsa/codebases/internal/myfrdcsa/MyFRDCSA.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'myfrdcsa',
+	          'Name' => 'MyFRDCSA'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/myfrdcsa/MyFRDCSA/System.pm
+		/var/lib/myfrdcsa/codebases/internal/myfrdcsa/MyFRDCSA/File.pm
+	<normal-form>
+		/var/lib/myfrdcsa/codebases/internal/normal-form/NormalForm.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'normal-form',
+	          'Name' => 'NormalForm'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/normal-form/NormalForm/Manager.pm
+	<ocra>
+		/var/lib/myfrdcsa/codebases/internal/ocra/OCRA/Corpus/Document/Page.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'ocra',
+	          'Name' => 'OCRA'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/ocra/OCRA/Corpus/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/ocra/OCRA/PostProcessor.pm
+		/var/lib/myfrdcsa/codebases/internal/ocra/OCRA/Corpus.pm
+		/var/lib/myfrdcsa/codebases/internal/ocra/OCRA.pm
+	<opencyc-common>
+		/var/lib/myfrdcsa/codebases/internal/opencyc-common/OpenCyc/Client.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'opencyc-common',
+	          'Name' => 'OpenCyc'
+	        };
+	<opencyc-el>
+	<packager>
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/CodeBase.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'packager',
+	          'Name' => 'Packager'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Mod/PBuilder.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Mod/SVNBuildPackage.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Util/File.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/LearnTechniques.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Package/Makefile.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Letter.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/CodeBases.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Release.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Version.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Package.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Rename.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'packager',
+	          'Name' => 'Packager::Rename'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/ICodeBase.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager/Packages.pm
+		/var/lib/myfrdcsa/codebases/internal/packager/Packager.pm
+	<paralegal>
+	<parking-system>
+	<perform>
+	<perllib>
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Lisp.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'PerlLib'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/SourceManager.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/UI.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Allocator.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Util/File.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/DBManager.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/WSD.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Daemon.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/NLP.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Lingua/Tokenizer.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Lingua/Ngram.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Lingua/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/ToText.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Ontology/Distinction.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Ontology/Term.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Ontology/Class.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/AnonymousScraper.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/MySQL.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'PerlLib::MySQL'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Cacher.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Hash.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Collection.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Date.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/FileType.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/RSSReader.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/HTMLConverter.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/TFIDF/Search.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Reviewer.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Dictionary.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/SourceTemplate.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Chase.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/List.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Mechanize.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/UI/AutoGenerate.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'PerlLib::UI::AutoGenerate'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/TFIDF.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Allocator/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Cluster.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/MySQL/Search.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Converter.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/DBManager/System.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Scraper/Craigslist/Apartment.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/DB.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/NLP/IE.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/NLP/Corpus/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/NLP/Corpus.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Geo.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/Ontology.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/BodyTextExtractor.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/OpenCyc.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/URIExtractor.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/IE/MDR.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/PerlLib/IE/AIE.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/DateExtraction.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Lingua'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/Inflect.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/Inflect/Number.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/BadWords.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/Extract/Dates/TempEx.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/EN/Extract/Dates.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/nl.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/en_us.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/ro.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/mn.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/vi.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/de.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/af.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/ga.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/fr.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/cy.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/GA/Gramadoir/Languages/sk.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Lingua/Preferred.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TextAnalysis.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TermExtraction.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::TermExtraction'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TextClustering/OSKM.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TextClustering/PerlLibCluster.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/Cage.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::NER'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/CAndC.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/TagEn.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/Simple.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/Stanford.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER/NamedEntity.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/Tokenize.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::Tokenize'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/POSTagging.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::POSTagging'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/NER.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/FactExtraction.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::FactExtraction'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/LogicForm/CAndC.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::LogicForm'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/LogicForm/FreeLogicForm.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/SentenceSimilarity.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::SentenceSimilarity'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/SentimentAnalysis.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::SentimentAnalysis'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/POSTagging/GPoSTTL.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/QueryExpansion.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::QueryExpansion'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/LogicForm.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TextClustering.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/TermExtraction/TermEx.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Capability/MT.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Capability::MT'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/String/Tokenizer2.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Rival::String::Tokenizer2'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/String/Tokenizer.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Rival::String::Tokenizer'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/Lingua/Translate.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'Rival'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/KnowledgeSet.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/Category.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/Learner/SVM.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/Learner/NaiveBayes.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/_Util.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/AI/Categorizer.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/Symbol/Table.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/Symbol/Table/Package.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/Rival/Symbol/Table/Symbol.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Template.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/MinorThird/Entry.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::MinorThird'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Rhyme.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Rhyme'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/CAndC.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::CAndC'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/MEAD.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::MEAD'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/RelEx.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::RelEx'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/GnuPlot/Command.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::GnuPlot'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/SuperSenseTagger.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::SuperSenseTagger'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/OpenCalais.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::OpenCalais'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/AnswerBus.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::AnswerBus'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/AbairIe.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::AbairIe'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/GoogleSets.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::GoogleSets'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/GoogleImages.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::GoogleImages'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/OpenCalais/TextSimpleParser.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/OpenCalais/RDFParser.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/WWW/SourceForge.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::WWW::SourceForge'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/TARSQI.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::TARSQI'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Spark/Procedure.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Spark'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Spark/Action.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/MontyLingua.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::MontyLingua'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/GnuPlot.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Liferea/Feed.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Liferea'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Liferea/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Spark.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Wiki/Page.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Wiki'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Assert.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Assert'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Festival.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Festival'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Liferea.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Apertium.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Apertium'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/CELT.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::CELT'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/OpenEphyra.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::OpenEphyra'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Wiki.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/ExtractAbbrev.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::ExtractAbbrev'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Enju.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Enju'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Docbook.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Docbook'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/ConceptNet.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::ConceptNet'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/LinkParser.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::LinkParser'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/JavaRAP.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::JavaRAP'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/OpinionFinder.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::OpinionFinder'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/Glimpse.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::Glimpse'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/MinorThird.pm
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/OpenCyc.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::OpenCyc'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/TextMine.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::TextMine'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/System/RWhois.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'System::RWhois'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/perllib/acronym.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'perllib',
+	          'Name' => 'acronym'
+	        };
+	<pgourmet>
+		/var/lib/myfrdcsa/codebases/internal/pgourmet/PGourmet/Inventory/Item.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'pgourmet',
+	          'Name' => 'PGourmet'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/pgourmet/PGourmet/Inventory.pm
+		/var/lib/myfrdcsa/codebases/internal/pgourmet/PGourmet/Web.pm
+		/var/lib/myfrdcsa/codebases/internal/pgourmet/PGourmet.pm
+	<picform>
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Pattern.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'picform',
+	          'Name' => 'PIC'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Aspect.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Context.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/QA.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Form.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Vertex.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/CDR.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Dictionary.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/WSTObject.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/ObjectName.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/Review.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/Translator.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/Wiki.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Writing/TranslationMemory.pm
+	grep: /var/lib/myfrdcsa/codebases/internal/picform/PIC/.#WST.pm: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Vis.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Ontology.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC/Metaphor.pm
+		/var/lib/myfrdcsa/codebases/internal/picform/PIC.pm
+	<posi>
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'posi',
+	          'Name' => 'POSI'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/Drupal6/Analysis/Resume.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/Drupal6/Analysis/Skills.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/Drupal6/Analysis.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/PWeb/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/PWeb/Annotator.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/Bot/UniLangIRCBot/Helper.pm
+		/var/lib/myfrdcsa/codebases/internal/posi/POSI/Bot/UniLangIRCBot/Handler.pm
+	<problemspace>
+	<pse>
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Mod/CHILL.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'pse',
+	          'Name' => 'PSE'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Search.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Goal.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Recommender.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE/Agenda/Task.pm
+		/var/lib/myfrdcsa/codebases/internal/pse/PSE.pm
+	<pverber>
+		/var/lib/myfrdcsa/codebases/internal/pverber/PVerber.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'pverber',
+	          'Name' => 'PVerber'
+	        };
+	<quac>
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/RT.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'quac',
+	          'Name' => 'QUAC'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/Wiki.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/PerlFAQ.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/Lemur.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/Glimpse.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Source/SMAN.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Hit.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/SourceManager.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Mod/Aranea.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Mod/OpenEphyra.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Question.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/Answer.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC/ModManager.pm
+		/var/lib/myfrdcsa/codebases/internal/quac/QUAC.pm
+	<radar>
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'radar',
+	          'Name' => 'RADAR'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Criteria/Keyword.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/CLI.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Search/Classifier.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Protocol.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Search.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/CodeBase.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/Freshmeat.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/URL.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/Perl/Module.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/Perl.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/CPAN.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/GoogleCode.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/SVN.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method/SourceForge.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Method.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Strategy/Extract.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Strategy/SearchEngine.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Protocol/Gnutella/Rename.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Protocol/Gnutella/Categorize.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Protocol/FTP/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Protocol/CVS.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/DOAP.pm
+		/var/lib/myfrdcsa/codebases/internal/radar/RADAR/Log.pm
+	<reasonbase>
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/Eolas/Annotator.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'reasonbase',
+	          'Name' => 'Eolas'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/Eolas.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wikize.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'reasonbase',
+	          'Name' => 'RB'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wikize/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wikize/Entry.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Server.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Entry/Page.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Entry/Entity/ContainingPage.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Entry/EntityType.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Entry/Entity.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Profile.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Document.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Client.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Wiki/Entry.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/GoAnalysis.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB/Corpus.pm
+		/var/lib/myfrdcsa/codebases/internal/reasonbase/RB.pm
+	<rwhois>
+	<samwise>
+	<sanctus>
+		/var/lib/myfrdcsa/codebases/internal/sanctus/Sanctus.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'sanctus',
+	          'Name' => 'Sanctus'
+	        };
+	<savant>
+		/var/lib/myfrdcsa/codebases/internal/savant/Savant.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'savant',
+	          'Name' => 'Savant'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/savant/Savant/System.pm
+		/var/lib/myfrdcsa/codebases/internal/savant/Savant/Capability.pm
+	<score>
+		/var/lib/myfrdcsa/codebases/internal/score/Score.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'score',
+	          'Name' => 'Score'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/score/Score/Predicate.pm
+		/var/lib/myfrdcsa/codebases/internal/score/Score/User.pm
+		/var/lib/myfrdcsa/codebases/internal/score/Score/Index/Entry.pm
+		/var/lib/myfrdcsa/codebases/internal/score/Score/Index.pm
+		/var/lib/myfrdcsa/codebases/internal/score/Score/GoalManager.pm
+		/var/lib/myfrdcsa/codebases/internal/score/Score/Predicates.pm
+	<seeker>
+		/var/lib/myfrdcsa/codebases/internal/seeker/Seeker.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'seeker',
+	          'Name' => 'Seeker'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/seeker/webkb: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/seeker/Server.pm
+	grep: /var/lib/myfrdcsa/codebases/internal/seeker/webkb: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/seeker/Seeker/Search.pm
+		/var/lib/myfrdcsa/codebases/internal/seeker/Seeker/Extractor.pm
+	<setanta>
+		/var/lib/myfrdcsa/codebases/internal/setanta/Security.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'setanta',
+	          'Name' => 'Security'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'setanta',
+	          'Name' => 'Setanta'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Audit/Whois.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Audit/ARIN.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Procedures.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Mod/RWhois/Directory.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Mod/RWhois/AuthArea.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Mod/Argus.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Mod/RWhois.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/RT.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/IP.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/IPDBEntry.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/IPSubnet.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/Region.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/Entry.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP/ASATEntry.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/KB/Client.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/PTP.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Troubleshoot.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Util.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor/Mail/Message.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor/Mail/Analyzer.pm
+	grep: /var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor/Mail/.#Analyzer.pm: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor/Argus.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/Monitor/Mail.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/KB.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/NetworkModel.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta/Setanta/RT/Analysis.pm
+	<setanta-client>
+		/var/lib/myfrdcsa/codebases/internal/setanta-client/Laeg/Service/CPM.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'setanta-client',
+	          'Name' => 'Laeg'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/setanta-client/Laeg/Service/RT.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta-client/Laeg/Service/Mozilla.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta-client/Laeg/Service/CLIent.pm
+		/var/lib/myfrdcsa/codebases/internal/setanta-client/Laeg.pm
+	<shops>
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/Auth.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'shops',
+	          'Name' => 'SHOPS'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/Conf.pm
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/Contacts.pm
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/Server.pm
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/Inventory.pm
+		/var/lib/myfrdcsa/codebases/internal/shops/SHOPS/DB.pm
+		/var/lib/myfrdcsa/codebases/internal/shops/Shops2.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'shops',
+	          'Name' => 'Shops2'
+	        };
+	<silo>
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/3DManager.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'silo',
+	          'Name' => 'IM'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/Type/File/Item.pm
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/Type/DBI.pm
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/Type/File.pm
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/RoboticIM.pm
+		/var/lib/myfrdcsa/codebases/internal/silo/IM/Modules/GoogleImages.pm
+		/var/lib/myfrdcsa/codebases/internal/silo/IM.pm
+	<sinless>
+		/var/lib/myfrdcsa/codebases/internal/sinless/SinLess/Pray.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'sinless',
+	          'Name' => 'SinLess'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/sinless/SinLess.pm
+	<socbot>
+	<source-hatchery>
+	<study>
+		/var/lib/myfrdcsa/codebases/internal/study/Study/PO.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'study',
+	          'Name' => 'Study'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/study/Study/TaskManager.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study/TaskManager/Task.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study/CiteSeer.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study/Programming.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study/CiteSeer/Citation.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study/Doc.pm
+		/var/lib/myfrdcsa/codebases/internal/study/Study.pm
+	<svrs>
+		/var/lib/myfrdcsa/codebases/internal/svrs/SVRS.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'svrs',
+	          'Name' => 'SVRS'
+	        };
+	<symbiosis>
+		/var/lib/myfrdcsa/codebases/internal/symbiosis/Symbiosis.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'symbiosis',
+	          'Name' => 'Symbiosis'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/symbiosis/Symbiosis/Context.pm
+	<systemx>
+	<task1>
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'task1',
+	          'Name' => 'Task1'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/internal/task1/source-packages: No such file or directory
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/Module.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/Package/Debian.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/Package/CPAN.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/AptFileFast.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/File.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/Distribution.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/Package.pm
+		/var/lib/myfrdcsa/codebases/internal/task1/Task1/ICodeBase.pm
+	<transport>
+		/var/lib/myfrdcsa/codebases/internal/transport/Trans.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'transport',
+	          'Name' => 'Trans'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/transport/Trans/Plan.pm
+	<unilang>
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Agent/Agent.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'unilang',
+	          'Name' => 'UniLang'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/Conf.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/Message.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/MySQL.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/RPC.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/Authenticator.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/File.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/LogFile.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/TempAgent.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/Util/Log.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/Agent.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/Classification.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/MAS.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/Server.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/Facilitator.pm
+		/var/lib/myfrdcsa/codebases/internal/unilang/UniLang/MAS/Client.pm
+	<verber>
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Manager.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'verber',
+	          'Name' => 'Verber'
+	        };
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Manager/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Manager/Step.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Manager/SubProcess.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Crikey.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Base/Planner.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Base/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/LPG/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Maxplan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/SGPlan/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Maxplan/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/SatPlanP.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/LPG.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/SatPlanP/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/Crikey/Plan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Planner/SGPlan.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Mod/EventLog.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Federated/PSEx.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Context.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/PDDL.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/PDDL/Problem.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/PDDL/Domain/Predicate.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/PDDL/Domain.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/NPDDL.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Ext/SOL.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/Graph.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/Beautifier.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/Axiom.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/Requirements.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/DateManip.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Util/Light.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Mission/Planner.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Capsule/PDDL22.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/World.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Visualizer.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Learning/EventDuration.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/Learning/Risk.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/World/Model.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber/FedManager.pm
+		/var/lib/myfrdcsa/codebases/internal/verber/Verber.pm
+	<wow>
+		/var/lib/myfrdcsa/codebases/internal/wow/WOWFilter.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'wow',
+	          'Name' => 'WOWFilter'
+	        };
+	<advanced-ttyplay>
+	<aie>
+	<analysis-engine>
+	<auto-builder>
+	<auto-packager>
+	<bookmark-clustering>
+	<bookmark-clustering-old>
+	<broker-buy-sell-system>
+	<budget-system>
+	<chap>
+		/var/lib/myfrdcsa/codebases/minor/chap/CHAP.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'chap',
+	          'Name' => 'CHAP'
+	        };
+	<computational-ethicist>
+	<critic-browser>
+		/var/lib/myfrdcsa/codebases/minor/critic-browser/JSAA.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'critic-browser',
+	          'Name' => 'JSAA'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/critic-browser/JSAA/Class.pm
+	<csa>
+	<dandd>
+	<e-health-clinic>
+	<emacs-nlp>
+	<email2speech>
+	<email-prioritization-and-urgency-routing>
+	<ethical-consumer-system>
+	<event-extractor>
+	<fact-extraction>
+	<file-organizer>
+	<firefox-extensions>
+	<folksonomy>
+		/var/lib/myfrdcsa/codebases/minor/folksonomy/Folksonomy.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'folksonomy',
+	          'Name' => 'Folksonomy'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/folksonomy/Folksonomy/Source/Debtags.pm
+		/var/lib/myfrdcsa/codebases/minor/folksonomy/Folksonomy/Source/DataMart.pm
+		/var/lib/myfrdcsa/codebases/minor/folksonomy/Folksonomy/Target/CSO.pm
+	<food-ontology>
+	<free-logic-form>
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/AbstractRelationArg.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'free-logic-form',
+	          'Name' => 'LF'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/Relation.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/AbstractRelation.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/RelationArg.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/Word.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/LogicForm.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence/Variable.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF/Sentence.pm
+		/var/lib/myfrdcsa/codebases/minor/free-logic-form/LF.pm
+	grep: /var/lib/myfrdcsa/codebases/minor/free-logic-form/data: No such file or directory
+	<free-rte>
+	<friend-finder>
+	<fweb-translate>
+	<game-time>
+	<google-summer-of-code-application>
+	<iahc-library-software>
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'iahc-library-software',
+	          'Name' => 'IAHC'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC/Koha/Source/CSV.pm
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC/Koha/Source/Email.pm
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC/Koha/Z3950.pm
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC/Koha/Record.pm
+		/var/lib/myfrdcsa/codebases/minor/iahc-library-software/IAHC/Koha.pm
+	<infolab>
+	<interrelator>
+	<irc-tdt>
+	<irish-annals>
+		/var/lib/myfrdcsa/codebases/minor/irish-annals/ExampleHandler.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'irish-annals',
+	          'Name' => 'ExampleHandler'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/minor/irish-annals/data: No such file or directory
+	<irish-language-tools>
+	<jess-debugger>
+	<js-application-agent>
+		/var/lib/myfrdcsa/codebases/minor/js-application-agent/JSAA.pm
+		/var/lib/myfrdcsa/codebases/minor/js-application-agent/JSAA/Class.pm
+	<js-form-filler>
+	<kb-of-common-tasks>
+	<language-learning>
+		/var/lib/myfrdcsa/codebases/minor/language-learning/LangLearn/Chatbot.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'language-learning',
+	          'Name' => 'LangLearn'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/language-learning/LangLearn/UserManager.pm
+		/var/lib/myfrdcsa/codebases/minor/language-learning/LangLearn/TTS.pm
+		/var/lib/myfrdcsa/codebases/minor/language-learning/LangLearn.pm
+	grep: /var/lib/myfrdcsa/codebases/minor/language-learning/data: No such file or directory
+	<log-analysis>
+		/var/lib/myfrdcsa/codebases/minor/log-analysis/LogAnalyzer.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'log-analysis',
+	          'Name' => 'LogAnalyzer'
+	        };
+	grep: /var/lib/myfrdcsa/codebases/minor/log-analysis/data: No such file or directory
+	<market-analyzer>
+	<market-researcher>
+	<mass-service-registration>
+	<mdr>
+	<message-classifier>
+	<metasite-extractor>
+	<miscellaneous-games>
+	<music-control-system>
+	<nlu>
+	<nooks-and-crevices>
+	<option-classifier>
+	<package-dependency-reasoner>
+	<paperless-office>
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/Source/PaperPort.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'paperless-office',
+	          'Name' => 'FilingCabinet'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/Scanner.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/DocumentManager.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/OCR.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/DocumentClassifier.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/Importer.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/GUI.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/Document.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/Cabinet.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet/OCR/Tesseract.pm
+		/var/lib/myfrdcsa/codebases/minor/paperless-office/FilingCabinet.pm
+	<patent-spider>
+	<perl6-stdlib>
+	<personal-adaptive-filtering>
+	<pse-x>
+	<raiders-of-the-ftp-sites>
+	<reading-analyzer>
+	<recovery-frdcsa>
+	<research-ontology>
+	<resume-critic>
+	<robotic-book-scanner>
+	<rte>
+		/var/lib/myfrdcsa/codebases/minor/rte/RTE.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'rte',
+	          'Name' => 'RTE'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/rte/RTE/CAndC.pm
+		/var/lib/myfrdcsa/codebases/minor/rte/RTE/Stanford.pm
+	<save-tara>
+	<sayer>
+		/var/lib/myfrdcsa/codebases/minor/sayer/Sayer/DBDHash.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'sayer',
+	          'Name' => 'Sayer'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/sayer/Sayer/Tie.pm
+		/var/lib/myfrdcsa/codebases/minor/sayer/Sayer/Profiler.pm
+		/var/lib/myfrdcsa/codebases/minor/sayer/Sayer/Preconditions.pm
+		/var/lib/myfrdcsa/codebases/minor/sayer/Sayer.pm
+	grep: /var/lib/myfrdcsa/codebases/minor/sayer/data: No such file or directory
+	<sayer-learner>
+	<software-finder>
+	<spreading-activation-package-search>
+	<spse>
+	<study-memorization-subsystem>
+	<system>
+	<system-ie>
+	<system-recommender>
+	<tara-knowledge-archive>
+	<task-manager>
+	<task-tagging-system>
+	<tdt>
+	<text-analyzer>
+	<the-frdcsa-book>
+	<thinker>
+	<todo-list-processor>
+	<todo-systems>
+	<twitter-follower-analyzer>
+		/var/lib/myfrdcsa/codebases/minor/twitter-follower-analyzer/TFA.pm
+	$VAR1 = {
+	          'Type' => 'FRDCSA',
+	          'ICodeBase' => 'twitter-follower-analyzer',
+	          'Name' => 'TFA'
+	        };
+		/var/lib/myfrdcsa/codebases/minor/twitter-follower-analyzer/TFA/Follower.pm
+	<vanity-search>
+	<virtual-hacklab>
+	<vm-release>
+	<web-backup>

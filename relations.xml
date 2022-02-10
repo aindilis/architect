@@ -1,0 +1,22 @@
+<relations>
+  <relation>
+    <receiver>
+      manager
+    </receiver>
+    <giver>
+      sbagen
+    </giver>
+    <requirement>
+      Determine end of REM sleep (in  order to wake user and prompt them
+      to record their  dreams.  They have 2 minutes  to record it, since
+      after 5 minutes half of it will be lost.)
+    </requirement>
+    <capability>
+      Binaural beat  generation is being experimented with  as a cheaper
+      method of  determining when REM  sleep ends, by stimulating  it to
+      occur  at certain  times.  Sbagen  has the  capability to  run all
+      night  long binaural  beat  programs designed  to stimulate  dream
+      phases at certain times.
+    </capability>
+  </relation>
+</relations>

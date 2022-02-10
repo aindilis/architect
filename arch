@@ -1,0 +1,6 @@
+#!/usr/bin/perl -w
+
+use Arch;
+
+$UNIVERSAL::arch = Arch->new();
+$UNIVERSAL::arch->Execute();

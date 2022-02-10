@@ -1,0 +1,24 @@
+Here is the plan
+
+# First, get the match system script to work using CSO or the CSO database.
+
+Then make a module of it.
+
+search for all internal and external capabilitiy requests, and build the following model:
+
+capability system - status [implemented,not implemented], [requires trial]
+	   system - status 
+capability system - status
+
+.
+.
+.
+
+Then trial to see which ones we need to install and review, use radar
+to fetch and install into the local archive.
+
+Then distribute them out to people for testing.  Install all
+prerequisites.
+
+
+

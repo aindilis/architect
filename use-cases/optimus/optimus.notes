@@ -1,0 +1,24 @@
+(process all the plain text files with a few things:
+ (Workhorse NLP Pipeline using Capability::TextAnalysis
+  (OLLIE should be added)
+  (Stanford Core Tools should be added)
+  (all bugs regarding storage of data should be added.)
+  (disable caching of results, simply store to file)
+  (clean out using CleanDumper or whatever.)
+  (do everything else in the book-analysis files)
+  ()
+  )
+ (extraction of actions that a person can do)
+ )
+(Finding actions that a person can do using Semantic Web tools,
+ such as conceptnet relations, UMBEL, etc)
+
+(Information retrieval)
+(question answering)
+(text mining)
+(knowledge discovery)
+
+(openlibrary.org)
+(the UNIX man pages)
+(Perl documentation)
+

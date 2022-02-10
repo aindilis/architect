@@ -1,0 +1,18 @@
+# example classification problems
+
+# where should I put the following function?  obviously, it should be
+# constrained to go in a particular perl module
+
+sub SaveDataToFile {
+  my ($self,%args) = @_;
+  my $OUT;
+  open (OUT, ">$args{File}")  or die "ouch\n";
+  print OUT Dumper($args{Data});
+  close (OUT);
+}
+
+
+
+# Example:
+
+# where would I add functionality

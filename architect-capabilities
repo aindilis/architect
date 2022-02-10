@@ -1,0 +1,7 @@
+(Perhaps it should determine  whether all packages have been uploaded.
+This seems  more like packager.   Since architect is  more responsible
+for capabilities  matching and so forth.  Takes  lists of capabilities
+and tries to match them.)
+
+(Ability to determine author based on writing style.  Could this be as
+simple as a classification based on a training set?)

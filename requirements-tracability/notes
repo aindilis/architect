@@ -1,0 +1,25 @@
+Given a document, extract  requirements, i.e. states that are expected
+to hold about a particular software or greater system.
+
+Given a  set of  requirements, record which  have been  satisfied, and
+links to sets of changes that implement those.
+
+All changes  should be recorded  as a dag.  Determining  which changes
+affect others is difficult.
+
+This is  also the notion behind backwatcher.   Backwatcher can trouble
+shoot installations by manipulating changes.
+
+Knowing how  to add and  remove configuration options is  critical.  A
+simple method would  be to just use subversion.   That has the benefit
+that certain systems can be restored.
+
+Do an  analysis to determine  whether these requirements exist  in the
+capabilities database.
+
+Therefore need to extract capabilities.
+
+Since for  most projects we have limited  capability information, have
+to figure out some way to obtain that.
+
+For which system are capabilities important.
